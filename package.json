@@ -26,6 +26,8 @@
     "ws": "^3.3.3"
   },
   "devDependencies": {
-    "@types/express": "^4.11.0"
+    "@types/express": "^4.11.0",
+    "deep-extend": ">=0.5.1",
+    "https-proxy-agent": ">=2.2.0"
   }
 }
