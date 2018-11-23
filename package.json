@@ -1,7 +1,9 @@
 {
-  "name": "beautiephi-server",
-  "version": "0.0.1",
-  "description": "",
+  "name": "la-imagine-chat",
+  "version": "1.0.0",
+  "author": "LA Chat by LA Imagine",
+  "description": "LA Chat server is a nodejs backend server for LA Chat app by LA Imagine.",
+  "homepage": "https://www.laimagine.com/",
   "main": "index.js",
   "scripts": {
     "start": "tsc && node index.js",
@@ -15,7 +17,6 @@
     "watch": "nodemon -e ts -w ./src -x npm run watch:serve",
     "watch:serve": "ts-node --inspect src/index.ts"
   },
-  "author": "",
   "license": "ISC",
   "dependencies": {
     "http-proxy": "^1.16.2",
