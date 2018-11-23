@@ -2,7 +2,7 @@
 
 LA Chat server is a nodejs backend server for [LA Chat app](https://github.com/laimagine/la-chat-app).
 
-It is a simple signaling server based on [Simple WebSockey](https://github.com/feross/simple-websocket) that allows video chat clients to connect with each other.
+It is a simple signaling server based on [Simple WebSocket](https://github.com/feross/simple-websocket) that allows video chat clients to connect with each other.
 
 **NOTE**: This is an in-memory server. So, restarting will lose all the connections' information.
 
